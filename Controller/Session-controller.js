@@ -22,7 +22,7 @@ function saveuser(req,res){                                 // // making a funct
     }
 
     
-// for export of function to index.js - login , signup , saveuser 
+// for export of function to index.js - login , signup , saveuse
 
 module.exports.login = login 
 module.exports.signup = signup
