@@ -14,7 +14,7 @@ function signup(req,res){                                     // making a functi
 }
 function saveuser(req,res){                                 // // making a function in session-controller of saveuser to be called at index.js 
     console.log(req.body) // request : body mein kya mila? will print it... whatever will be entered in field is displayed in terminal.
-    res.json({            // it will give respond in json on which if saveuser fields are inserted in postman. 
+    res.json({            // it will give respond in json on which if saveuser fields are inserted in postman
         msg:"done donadone...",
         status:200,
         data:req.body
